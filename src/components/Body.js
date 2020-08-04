@@ -8,12 +8,14 @@ import BuyNow from './BuyNow';
 
 function Body() {
     return (
-        <Switch>
-            <Route path="/home" component={Home} />
-            <Route path="/characters" component={Characters} />
-            <Route path="/battlefield" component={Battlefield} />
-            <Route path="/buynow" component={BuyNow} />
-        </Switch>
+        <div className="bg-dark">
+            <Switch>
+                <Route path="/home" component={Home} />
+                <Route path="/characters" component={Characters} />
+                <Route path="/battlefield" component={Battlefield} />
+                <Route path="/buynow" component={BuyNow} />
+            </Switch>
+        </div>
     );
 }
 

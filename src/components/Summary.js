@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Summary() {
     return (
-        <Jumbotron style={{marginLeft: 0, marginRight: 0}}>
+        <Jumbotron style={{margin: 0}}>
             <Container>
                 <Row>
                     <Col lg={7}>
