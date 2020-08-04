@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header() {
     return (
-        <Navbar bg="dark" variant="dark" className="justify-content-center">
+        <Navbar bg="dark" variant="dark" className="justify-content-center fixed-top">
             <Nav>
                 <Nav.Link as={Link} to="/home">Home</Nav.Link>
                 <Nav.Link as={Link} to="/characters">Characters</Nav.Link>

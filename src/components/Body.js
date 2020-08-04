@@ -9,6 +9,7 @@ import BuyNow from './BuyNow';
 function Body() {
     return (
         <div className="bg-dark">
+            <div style={{marginTop: 56}} />
             <Switch>
                 <Route path="/home" component={Home} />
                 <Route path="/characters" component={Characters} />
