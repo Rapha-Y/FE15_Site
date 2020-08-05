@@ -13,6 +13,10 @@ function VideoButton(props) {
                 marginLeft: props.marginLeft
             }} 
             className={props.className}
+            block={props.block}
+            data-toggle="modal"
+            data-target="#videoModal"
+            onClick={props.onClick}
         >
             <Image src={require("../resources/trailerthumbnail.jpg")} fluid />
             <div>Watch Trailer</div>
