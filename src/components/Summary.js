@@ -8,23 +8,22 @@ function Summary() {
             <Container>
                 <Row>
                     <Col lg={7}>
-                        <h2 style={{paddingBottom: "12px"}}>Two Paths, One Destiny</h2>
+                        <h2 style={{paddingBottom: "12px"}}>Two paths, one destiny</h2>
                         <p>
-                            Long ago, two sibling gods arrived at the continent of Valentia. The eldest
-                            god, Duma, took the southern lands and founded the kingdom of Rigel, where
-                            strenght is valued above all. The merciful Mila, believing mankind deserved
-                            to freely pursue happiness, founded the kingdom of Zofia at the south,
-                            giving her blessings to the land.
+                            The kingdom of Zofia, blessed by the goddess Mila, is suddenly found engulfed
+                            in the flames of war, as the neighboring kingdom of Rigel invades the land
+                            under command of Emperor Rudolf, bringing with them death and suffering.
                         </p>
                         <p>
-                            Due to a divine accord between the gods, each nation was never to violate
-                            each other's dominion and peace reigned for millennia. However, Rigel
-                            suddenly broke the pact bringing death and sufferring to Zofia, under
-                            command of Emperor Rudolf.
+                            Join Alm in his fight for Zofia, and Celica in her search for the goddess,
+                            as they overcome bandits, armies and ancient horrors, through their different
+                            paths, while sharing the single goal of stopping the war.
                         </p>
                         <p>
-                            Join the journey of Alm and Celica, two Zofians who wish to end the war,
-                            as you command them and their armies in the quest for peace.
+                            In this story, your role is to command Alm, Celica and their allies on the 
+                            battlefield, gradually improving their performance with each battle, gathering 
+                            resources from exploring towns and dungeons, and forging bonds with them, as
+                            you learn of their personal tales and relationships.
                         </p>
                     </Col>
                     <Col lg={5}>
