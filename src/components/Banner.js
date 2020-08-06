@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Image, Modal, Row, Col, Button } from 'react-bootstrap';
+import { Image, Modal, Row, Col, Button, ResponsiveEmbed } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import VideoButton from './VideoButton';
@@ -52,7 +52,14 @@ function Banner() {
                     <Modal.Title>Official Announcement Trailer</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    Put video here
+                    <ResponsiveEmbed aspectRatio="16by9">
+                        <iframe 
+                            title="gametrailer"
+                            className="embed-responsive-item"
+                            src="https://www.youtube.com/embed/-tSY0giG3CI"
+                            allowFullScreen
+                        />
+                    </ResponsiveEmbed>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="dark" onClick={handleClose}>Close</Button>
