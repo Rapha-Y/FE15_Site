@@ -8,7 +8,7 @@ import BuyNow from './BuyNow';
 
 function Body() {
     return (
-        <div className="bg-dark">
+        <div className="bg-dark" style={{paddingBottom: 16, marginBottom: -16, marginRight: 0}}>
             <div style={{marginTop: 56}} />
             <Switch>
                 <Route path="/home" component={Home} />

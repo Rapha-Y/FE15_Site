@@ -10,9 +10,6 @@ function Home() {
             <Banner />
             <Summary />
             <VisualTabLinks />
-            {/* link to characters */}
-            {/* link to battlefield */}
-            {/* link to buynow */}
         </div>
     );
 }

@@ -10,7 +10,7 @@ function VisualTabLink(props) {
                     md={5} 
                     className="d-flex align-items-center justify-content-center"
                 >
-                    <Container className="m-5 text-center">
+                    <Container className="my-4 text-center">
                         <h1>{props.text}</h1>   
                     </Container>
                 </Col>
