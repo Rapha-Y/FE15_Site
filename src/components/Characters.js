@@ -1,10 +1,10 @@
 import React from 'react';
 
-import CharacterPortrait from './CharacterPortrait';
+import CharacterGrid from './CharacterGrid';
 
 function Characters() {
     return (
-        <CharacterPortrait />
+        <CharacterGrid />
     );
 }
 
