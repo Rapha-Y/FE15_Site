@@ -1,8 +1,10 @@
 import React from 'react';
 
+import CharacterPortrait from './CharacterPortrait';
+
 function Characters() {
     return (
-        <h1>Characters</h1>
+        <CharacterPortrait />
     );
 }
 
