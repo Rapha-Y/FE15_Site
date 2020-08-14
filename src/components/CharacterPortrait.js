@@ -1,13 +1,40 @@
-import React from 'react';
-import { Image, Button } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Image, Button, Modal, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function CharacterPortrait(props) {
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    
     return (
-        <Button variant="primary" className="p-1 my-3">
-            <Image src={props.img} className="border border-dark bg-light" fluid />
-            <h5 style={{marginBottom: 0}}>{props.name}</h5>
-        </Button>
+        <div>
+            <Button variant="primary" className="p-1 my-3" onClick={handleShow}>
+                <Image src={props.img} className="border border-dark bg-light" fluid />
+                <h5 style={{marginBottom: 0}}>{props.name}</h5>
+            </Button>
+
+            <Modal show={show} onHide={handleClose} centered>
+                <Modal.Header closeButton>
+                    <Modal.Title>{props.name}</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <Row>
+                        <Col xs={4}>
+                            <Image src={props.img} className="border" />
+                        </Col>
+                        <Col xs={8}>
+                            <p>Age: {props.age}</p>
+                            <p>Class: {props.class}</p>
+                            <p>{props.description}</p>
+                        </Col>
+                    </Row>
+                </Modal.Body>
+                <Modal.Footer>
+                    <Button variant="dark" onClick={handleClose}>Close</Button>
+                </Modal.Footer>
+            </Modal>
+        </div>
     );
 }
 
