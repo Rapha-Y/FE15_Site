@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function CharacterPortrait(props) {
     return (
-        <Button variant="outline-dark" className="bg-light p-1">
-            <Image src={props.img} className="border border-dark" fluid />
+        <Button variant="primary" className="p-1 my-3">
+            <Image src={props.img} className="border border-dark bg-light" fluid />
             <h5 style={{marginBottom: 0}}>{props.name}</h5>
         </Button>
     );
