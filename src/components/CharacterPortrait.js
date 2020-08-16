@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Image, Button, Modal, Row, Col } from 'react-bootstrap';
+import { Container, Image, Button, Modal, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function CharacterPortrait(props) {
@@ -19,16 +19,18 @@ function CharacterPortrait(props) {
                     <Modal.Title>{props.name}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Row>
-                        <Col xs={4}>
-                            <Image src={props.img} className="border" />
-                        </Col>
-                        <Col xs={8}>
-                            <p>Age: {props.age}</p>
-                            <p>Class: {props.class}</p>
-                            <p>{props.description}</p>
-                        </Col>
-                    </Row>
+                    <Container>
+                        <Row>
+                            <Col xs={4}>
+                                <Image src={props.img} className="border" />
+                            </Col>
+                            <Col xs={8}>
+                                <p>Age: {props.age}</p>
+                                <p>Class: {props.class}</p>
+                                <p>{props.description}</p>
+                            </Col>
+                        </Row>
+                    </Container>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="dark" onClick={handleClose}>Close</Button>
