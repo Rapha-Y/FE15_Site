@@ -62,7 +62,7 @@ const CharacterInfo = [
         img: Atlas,
         class: "Villager",
         age: "20",
-        description: ""
+        description: "A strong lumberjack whose younger siblings have been kidnapped by Grieth. With a strong sense of family, he plans on striking the bandit's stronghold, with or without help."
     },
     {
         id: 3,
@@ -102,7 +102,7 @@ const CharacterInfo = [
         img: Clair,
         class: "Pegasus Knight",
         age: "18",
-        description: "Clive’s younger sister; also a member of the Deliverance. Her overbearingness is her one big flaw, not that she pays it any mind. A cheery and pretty girl who loves to interact with any and everyone."
+        description: "Clive’s younger sister, also a member of the Deliverance. Her overbearingness is her one big flaw, not that she pays it any mind. A cheery and pretty girl who loves to interact with any and everyone."
     },
     {
         id: 8,
@@ -118,7 +118,7 @@ const CharacterInfo = [
         img: Deen,
         class: "Myrmidon",
         age: "30",
-        description: ""
+        description: "A mercenary who guards the north desert passage leading to the headquarters of Grieth the pillager. Quiet and stoic, he's a man of few words and an unknown past."
     },
     {
         id: 10,
@@ -134,15 +134,15 @@ const CharacterInfo = [
         img: Desaix,
         class: "Baron",
         age: "43",
-        description: ""
+        description: "The chancellor of Zofia. He wishes to have absolute power, and for that, harming Zofia and its royalty, as well as allying with Rigel is nothing but the next stepping stone in his tyrannic rise."
     },
     {
         id: 12,
         name: "Duma",
         img: Duma,
-        class: "???",
-        age: "???",
-        description: ""
+        class: "Unknown",
+        age: "Unknown",
+        description: "The God who watches over Valentia's northern region of Rigel. While he belived that humans needed to struggle, never intervening, he had honored the pact never to invade Zofia. However, Mila's kingdom has been attacked and Duma doesn't seem to be taking action, what is he doing?"
     },
     {
         id: 13,
@@ -150,7 +150,7 @@ const CharacterInfo = [
         img: Emma,
         class: "Falcon Knight",
         age: "13",
-        description: ""
+        description: "A traveler from another land. While young and inexperienced, she proves to be responsible and determined, all while maintaning a cheerful personality. Only available via DLC."
     },
     {
         id: 14,
@@ -173,8 +173,8 @@ const CharacterInfo = [
         name: "Fernand",
         img: Fernand,
         class: "Cavalier",
-        age: "???",
-        description: ""
+        age: "Unknown",
+        description: "A Zofian noble, with a disdain for the lower class. As Clive's right-hand man, he respects his friend's decisions regarding increasing the Deliverance's numbers with commoners, but due to his past with commonfolk, every day he grows more upset with the group."
     },
     {
         id: 17,
@@ -182,7 +182,7 @@ const CharacterInfo = [
         img: Forsyth,
         class: "Soldier",
         age: "25",
-        description: ""
+        description: "A passionate man who always dreamed of becoming a knight, despite his social standing. He sees in Clive his role model, dilligently studying in him, how to be a knight."
     },
     {
         id: 18,
@@ -205,8 +205,8 @@ const CharacterInfo = [
         name: "Grieth",
         img: Grieth,
         class: "Dread Fighter",
-        age: "???",
-        description: ""
+        age: "Unknown",
+        description: "An opportunist pirate who rose to the top as Zofia's so-called bandit king. With his fearless and defiant attitude, he remorselessly claims anything for profit, including people."
     },
     {
         id: 21,
@@ -214,7 +214,7 @@ const CharacterInfo = [
         img: Jedah,
         class: "Cantor",
         age: "147",
-        description: ""
+        description: "A Cantor of the Duma Faithful and a devout servant of the War Father Duma. While he leads the mages of the Rigelian Empire to invade Zofia, he dispatches minions to assault Celica for reasons unknown. As his unearthly appearance suggests, he wields immensely powerful magic."
     },
     {
         id: 22,
@@ -222,7 +222,7 @@ const CharacterInfo = [
         img: Jesse,
         class: "Mercenary",
         age: "24",
-        description: ""
+        description: "A flirty mercenary who enjoys life without restrictions. A big dreamer, he wants to make a nation of mercenaries, where everyone is free."
     },
     {
         id: 23,
@@ -254,7 +254,7 @@ const CharacterInfo = [
         img: Lukas,
         class: "Soldier",
         age: "24",
-        description: "A pretty boy ex-soldier who follows his big brother figure Valbar. Has a frank personality and a sharp tongue, but he’s an honest man who tells no lies."
+        description: "A pretty boy ex-soldier who follows his love Valbar. Has a frank personality and a sharp tongue, but he’s an honest man who tells no lies."
     },
     {
         id: 27,
@@ -262,7 +262,7 @@ const CharacterInfo = [
         img: Luthier,
         class: "Mage",
         age: "22",
-        description: "A Mage who lives in a village located at the Zofian borders. He has fully devoted himself to mastering the art of sorcery and shows nary an interest to the people of society. Finds it impossible to deal with his younger sister’s selfish streaks."
+        description: "A mage who lives in a village located at the Zofian borders. He has fully devoted himself to mastering the art of sorcery and shows nary an interest to the people of society. Finds it impossible to deal with his younger sister’s selfish streaks."
     },
     {
         id: 28,
@@ -278,15 +278,15 @@ const CharacterInfo = [
         img: Mathilda,
         class: "Paladin",
         age: "28",
-        description: ""
+        description: "An excellent knight and one of the founders of the Deliverance. While confident on her abilities, she sometimes worries she might be casting a shadow on Clive, who is the leader of the Deliverance and her husband."
     },
     {
         id: 30,
         name: "Mila",
         img: Mila,
-        class: "???",
-        age: "???",
-        description: ""
+        class: "Unknown",
+        age: "Unknown",
+        description: "The Goddess who watches over Valentia’s southern region of Zofia. The Kingdom of Zofia once prospered with Mila’s blessings, but it has recently been troubled by poor harvests, the appearance of monsters and even an invasion by the Rigelian Empire. During this time of crisis, what is Mila doing?"
     },
     {
         id: 31,
@@ -294,7 +294,7 @@ const CharacterInfo = [
         img: Mycen,
         class: "Gold Knight",
         age: "65",
-        description: ""
+        description: "A former Rigelian who became famous as a Zofian general. A hero among fellow commoners, as his title as a knight would be unthinkable for someone without noble blood, but was made possible by merit alone."
     },
     {
         id: 32,
@@ -302,7 +302,7 @@ const CharacterInfo = [
         img: Nomah,
         class: "Sage",
         age: "71",
-        description: ""
+        description: "Mycen's old friend and Mila worshipper. He is a sage who takes care of the priory where Celica was raised, warning her of the dangers ahead before she sets out on her journey."
     },
     {
         id: 33,
@@ -310,7 +310,7 @@ const CharacterInfo = [
         img: Nuibaba,
         class: "Witch",
         age: "124",
-        description: ""
+        description: "A witch from the Duma faithful. Obsessed with power and beauty, she has secluded herself in the woods, where she sacrifices beautiful women in exchange for longevity."
     },
     {
         id: 34,
@@ -333,16 +333,16 @@ const CharacterInfo = [
         name: "Randal",
         img: Randal,
         class: "Paladin",
-        age: "???",
-        description: ""
+        age: "Unknown",
+        description: "A traveler from another land. With a love for gambling, and a laid back personality, he comes off as a vagabond, yet his experience and combat skills show once he needs to become serious. Only available via DLC."
     },
     {
         id: 37,
         name: "Rinea",
         img: Rinea,
-        class: "???",
-        age: "???",
-        description: ""
+        class: "Unknown",
+        age: "Unknown",
+        description: "A noblewoman who loves nature and dancing. After becoming Berkut's wife, she feels pressure to become a worthy fiancee, as she comes from a lesser house."
     },
     {
         id: 38,
@@ -350,15 +350,15 @@ const CharacterInfo = [
         img: Rudolf,
         class: "Gold Knight",
         age: "50",
-        description: ""
+        description: "The fourth Emperor of Rigel. As the one responsible for the invasion of Zofia, Rudolf is surrounded by mysteries regarding his motivations and ability to oppose a god."
     },
     {
         id: 39,
         name: "Shade",
         img: Shade,
         class: "Saint",
-        age: "???",
-        description: ""
+        age: "Unknown",
+        description: "A traveler from another land. Wise and knowledgeable, she behaves like an older sister, but doesn't take well to being made fun of. Only available via DLC."
     },
     {
         id: 40,
@@ -374,7 +374,7 @@ const CharacterInfo = [
         img: Slayde,
         class: "Cavalier",
         age: "32",
-        description: ""
+        description: "A slimy knight serving directly under Desaix. His job is solely to follow commands from the tyrannical chancellor, but he makes sure to enjoy his orders."
     },
     {
         id: 42,
@@ -382,7 +382,7 @@ const CharacterInfo = [
         img: Sonya,
         class: "Mage",
         age: "25",
-        description: "A female mage who guards the south desert passage leading to the headquarters of Grieth the pillager. She stands in Celica’s path, preventing her from crossing the desert. Cool and unyielding, she’s a lady who oozes womanly charm. Apparently burdened with an awful past, but hates to talk about it."
+        description: "A mage who guards the south desert passage leading to the headquarters of Grieth the pillager. She stands in Celica’s path, preventing her from crossing the desert. Cool and unyielding, she’s a lady who oozes womanly charm. Apparently burdened with an awful past, but hates to talk about it."
     },
     {
         id: 43,
@@ -390,7 +390,7 @@ const CharacterInfo = [
         img: Tatiana,
         class: "Saint",
         age: "28",
-        description: ""
+        description: "A Rigelian woman in service of the church of Duma. Good-natured, amiable and clumsy, she's a very approachable person, going as far as caring for a complete stranger with no memories, in exchange for nothing."
     },
     {
         id: 44,
@@ -413,8 +413,8 @@ const CharacterInfo = [
         name: "Yuzu",
         img: Yuzu,
         class: "Priestess",
-        age: "",
-        description: ""
+        age: "Unknown",
+        description: "A traveler from another land. Has a very serious personality, keen to prove her swordswoman skills, but is a little social awkward. Only available via DLC."
     },
     {
         id: 47,
