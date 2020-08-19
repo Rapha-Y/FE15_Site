@@ -8,7 +8,7 @@ function Characters() {
     return (
         <div>
             <Image src={require('../resources/starters.png')} fluid />
-            <Jumbotron>
+            <Jumbotron fluid>
                 <Container>
                     <h2 style={{paddingBottom: "12px"}}>Many allies for many foes</h2>
                     <p>

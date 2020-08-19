@@ -12,7 +12,7 @@ function Battlefield() {
     return (
         <div>
             <Image src={require('../resources/turnwheel.png')} fluid />
-            <Jumbotron>
+            <Jumbotron fluid>
                 <Container>
                     <h2 style={{paddingBottom: "12px"}}>Faithful, but innovative</h2>
                     <p>
