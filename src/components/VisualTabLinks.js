@@ -7,7 +7,7 @@ import VisualTabLink from './VisualTabLink';
 
 function VisualTabLinks() {    
     return (
-        <div>
+        <div className="text-center">
             <VisualTabLink 
                 content={
                     <div>
@@ -19,6 +19,7 @@ function VisualTabLinks() {
                     </div>
                 } 
                 img={Repayment}
+                link="/characters"
             />
             <VisualTabLink 
                 content={
@@ -31,6 +32,7 @@ function VisualTabLinks() {
                     </div>
                 } 
                 img={VeteranKnight}
+                link="/battlefield"
             />
             <VisualTabLink 
                 content={
@@ -43,6 +45,7 @@ function VisualTabLinks() {
                     </div>
                 } 
                 img={Brands}
+                link="/buynow"
             />
         </div>
     );

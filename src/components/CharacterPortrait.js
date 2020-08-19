@@ -9,9 +9,9 @@ function CharacterPortrait(props) {
     
     return (
         <div>
-            <Button variant="danger" className="p-1 my-3" onClick={handleShow}>
+            <Button variant="danger" className="p-0 my-3" onClick={handleShow}>
                 <Image src={props.img} style={{backgroundColor: "#eee"}} fluid />
-                <h5 style={{marginBottom: 0}}>{props.name}</h5>
+                <h5 style={{marginBottom: 0, paddingTop: 4, paddingBottom: 4}}>{props.name}</h5>
             </Button>
 
             <Modal show={show} onHide={handleClose} centered>
