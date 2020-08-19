@@ -10,7 +10,7 @@ function GameplayExample(props) {
                     md={5} 
                     className="d-flex align-items-center justify-content-center"
                 >
-                    <Container>
+                    <Container className="py-4">
                         {props.content}
                     </Container>
                 </Col>
