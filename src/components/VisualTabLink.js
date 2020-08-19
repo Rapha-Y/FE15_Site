@@ -1,10 +1,11 @@
 import React from 'react';
 import { Image, Container, Row, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function VisualTabLink(props) {
     return (
-        <Button variant="outline-danger" className="my-3 p-0">
+        <Button as={Link} to={props.link} variant="outline-danger" className="my-3 p-0">
             <Container className="bg-success">
                     <Row style={{backgroundColor: "#eee", color: "black"}}>
                         <Col 
