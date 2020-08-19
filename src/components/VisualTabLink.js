@@ -4,17 +4,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function VisualTabLink(props) {
     return (
-        <Container className="bg-secondary my-3">
+        <Container className="my-3" style={{backgroundColor: "#eee"}}>
             <Row>
                 <Col 
                     md={5} 
-                    className="d-flex align-items-center justify-content-center"
+                    className="d-flex align-items-center justify-content-center border border-danger"
                 >
-                    <Container className="my-4 text-center">
-                        <h1>{props.text}</h1>   
+                    <Container className="py-4">
+                        {props.content}   
                     </Container>
                 </Col>
-                <Col md={7} style={{padding: 0}}>
+                <Col md={7} style={{padding: 0}} className="border border-left-0 border-danger">
                     <Image 
                         src={props.img}
                         className="max-width"
