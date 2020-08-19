@@ -6,7 +6,7 @@ import CharacterGrid from './CharacterGrid';
 
 function Characters() {
     return (
-        <div>
+        <div className="pb-4">
             <Image src={require('../resources/starters.png')} fluid />
             <Jumbotron fluid>
                 <Container>

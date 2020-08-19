@@ -9,8 +9,8 @@ function CharacterPortrait(props) {
     
     return (
         <div>
-            <Button variant="primary" className="p-1 my-3" onClick={handleShow}>
-                <Image src={props.img} className="border border-dark bg-light" fluid />
+            <Button variant="danger" className="p-1 my-3" onClick={handleShow}>
+                <Image src={props.img} style={{backgroundColor: "#eee"}} fluid />
                 <h5 style={{marginBottom: 0}}>{props.name}</h5>
             </Button>
 

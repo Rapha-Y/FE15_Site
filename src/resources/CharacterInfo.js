@@ -142,7 +142,7 @@ const CharacterInfo = [
         img: Duma,
         class: "Unknown",
         age: "Unknown",
-        description: "The God who watches over Valentia's northern region of Rigel. While he belived that humans needed to struggle, never intervening, he had honored the pact never to invade Zofia. However, Mila's kingdom has been attacked and Duma doesn't seem to be taking action, what is he doing?"
+        description: "The God who watches over Valentia's northern region of Rigel. While he belived that humans needed to struggle, never intervening in their lives, he had honored the pact never to invade Zofia. However, Mila's kingdom has been attacked and Duma doesn't seem to be taking action, what could be his goal?"
     },
     {
         id: 13,
