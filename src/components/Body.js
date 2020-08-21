@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 
 import Home from './Home';
 import Characters from './Characters';
@@ -11,6 +11,9 @@ function Body() {
         <div className="bg-dark" style={{paddingBottom: 16, marginBottom: -16, marginRight: 0}}>
             <div style={{marginTop: 56}} />
             <Switch>
+                <Route path="/" exact>
+                    <Redirect to="/home" />
+                </Route>
                 <Route path="/home" component={Home} />
                 <Route path="/characters" component={Characters} />
                 <Route path="/battlefield" component={Battlefield} />
