@@ -5,6 +5,7 @@ import Home from './Home';
 import Characters from './Characters';
 import Battlefield from './Battlefield';
 import BuyNow from './BuyNow';
+import NotFound from './NotFound';
 
 function Body() {
     return (
@@ -18,6 +19,7 @@ function Body() {
                 <Route path="/characters" component={Characters} />
                 <Route path="/battlefield" component={Battlefield} />
                 <Route path="/buynow" component={BuyNow} />
+                <Route path="*" component={NotFound} />
             </Switch>
         </div>
     );
