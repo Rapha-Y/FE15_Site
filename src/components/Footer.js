@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import FooterLink from './FooterLink';
+
 function Footer() {
     return (
         <Jumbotron style={{margin: 0}} fluid>
@@ -13,40 +15,16 @@ function Footer() {
                                 <h5>Official Links</h5>
                             </li>
                             <li>
-                                <a 
-                                    href="https://www.facebook.com/Nintendo" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Facebook
-                                </a>
+                                <FooterLink name="Facebook" href="https://www.facebook.com/Nintendo" />
                             </li>
                             <li>
-                                <a 
-                                    href="https://www.instagram.com/nintendo/" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Instagram
-                                </a>
+                                <FooterLink name="Instagram" href="https://www.instagram.com/nintendo/" />
                             </li>
                             <li>
-                                <a 
-                                    href="https://twitter.com/NintendoAmerica" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Twitter
-                                </a>
+                                <FooterLink name="Twitter" href="https://twitter.com/NintendoAmerica" />
                             </li>
                             <li>
-                                <a 
-                                    href="https://www.youtube.com/nintendo" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Youtube
-                                </a>
+                                <FooterLink name="Youtube" href="https://www.youtube.com/nintendo" />
                             </li>
                         </ul>
                     </Col>
@@ -56,31 +34,14 @@ function Footer() {
                                 <h5>Resources</h5>
                             </li>
                             <li>
-                                <a 
-                                    href="https://serenesforest.net" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Serenes Forest
-                                </a>
+                                <FooterLink name="Serenes Forest" href="https://serenesforest.net" />
                             </li>
                             <li>
-                                <a 
-                                    href="https://fireemblemwiki.org" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Wiki
-                                </a>
+                                <FooterLink name="Wiki" href="https://fireemblemwiki.org" />
                             </li>
                             <li>
-                                <a 
-                                    href="https://fireemblem.fandom.com/wiki/Fire_Emblem_Wiki" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Wikia
-                                </a>
+                                <FooterLink name="Wikia" href="https://fireemblem.fandom.com/wiki/Fire_Emblem_Wiki" />
+
                             </li>
                         </ul>
                     </Col>
@@ -90,74 +51,35 @@ function Footer() {
                                 <h5>Community</h5>
                             </li>
                             <li>
-                                <a 
-                                    href="https://aminoapps.com/c/fire-emblem-amino/home/" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Amino
-                                </a>
+                                <FooterLink name="Amino" href="https://aminoapps.com/c/fire-emblem-amino/home/" />
                             </li>
                             <li>
-                                <a 
-                                    href="https://www.reddit.com/r/fireemblem/" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Reddit
-                                </a>
+                                <FooterLink name="Reddit" href="https://www.reddit.com/r/fireemblem/" />
                             </li>
                         </ul>
                     </Col>
                     <Col md={3}>
                         <ul className="list-unstyled">
                             <li>
-                                <h5>Other Titles</h5>
+                                <h5>Previous Titles</h5>
                             </li>
                             <li>
-                                <a 
-                                    href="https://www.nintendo.com/games/detail/fire-emblem-three-houses-switch/" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Three Houses
-                                </a>
+                                <FooterLink name="Fates: Conquest" href="https://www.nintendo.com/games/detail/fire-emblem-fates-conquest-3ds/" />
                             </li>
                             <li>
-                                <a 
-                                    href="https://www.nintendo.com/games/detail/fire-emblem-awakening-3ds/" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Awakening
-                                </a>
+                                <FooterLink name="Fates: Birthright" href="https://www.nintendo.com/games/detail/fire-emblem-fates-birthright-3ds/" />
                             </li>
                             <li>
-                                <a 
-                                    href="https://www.nintendo.com/games/detail/fire-emblem-shadow-dragon-wii-u/" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Shadow Dragon
-                                </a>
+                                <FooterLink name="Awakening" href="https://www.nintendo.com/games/detail/fire-emblem-awakening-3ds/" />
                             </li>
                             <li>
-                                <a 
-                                    href="https://www.nintendo.com/games/detail/fire-emblem-the-sacred-stones-wii-u/" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    The Sacred Stones
-                                </a>
+                                <FooterLink name="Shadow Dragon" href="https://www.nintendo.com/games/detail/fire-emblem-shadow-dragon-wii-u/" />
                             </li>
                             <li>
-                                <a 
-                                    href="https://www.nintendo.com/games/detail/fire-emblem-wii-u/" 
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    The Blazing Blade
-                                </a>
+                                <FooterLink name="The Sacred Stones" href="https://www.nintendo.com/games/detail/fire-emblem-the-sacred-stones-wii-u/" />
+                            </li>
+                            <li>
+                                <FooterLink name="The Blazing Blade" href="https://www.nintendo.com/games/detail/fire-emblem-wii-u/" />
                             </li>
                         </ul>
                     </Col>
