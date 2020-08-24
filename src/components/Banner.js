@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Image, Modal, Row, Col, Button, ResponsiveEmbed } from 'react-bootstrap';
+import { Image, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import VideoButton from './VideoButton';

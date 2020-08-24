@@ -8,10 +8,7 @@ function VisualTabLink(props) {
         <Button as={Link} to={props.link} variant="outline-danger" className="my-3 p-0">
             <Container className="bg-success">
                     <Row style={{backgroundColor: "#eee", color: "black"}}>
-                        <Col 
-                            md={5} 
-                            className="d-flex align-items-center"
-                        >
+                        <Col md={5} className="d-flex align-items-center">
                             <Container className="py-4">
                                 {props.content}   
                             </Container>

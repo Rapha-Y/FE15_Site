@@ -1,7 +1,8 @@
 import React from 'react';
-import { Image, Jumbotron, Container } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import TabSummary from './TabSummary';
 import GameplayExample from './GameplayExample';
 
 import Forecast from '../resources/forecast.png';
@@ -12,24 +13,27 @@ function Battlefield() {
     return (
         <div>
             <Image src={require('../resources/turnwheel.png')} fluid />
-            <Jumbotron fluid>
-                <Container>
-                    <h2 style={{paddingBottom: "12px"}}>Faithful, but innovative</h2>
-                    <p>
-                        In Fire Emblem Gaiden for the SNES, concepts such as dungeons were introduced, but
-                        could never be fully explored due to limitations of the time. In this remake, such
-                        ideas are brought to life in modern fashion, allowing for a one-of-a-kind Fire 
-                        Emblem experience.
-                    </p>
-                    <p>
-                        Gaiden was also known for presenting many unique ideas such as magic costing health
-                        and very long-range archers, both of which are unchanged in this title. Building
-                        upon such ideas, Fire Emblem Echoes: Shadows of Valentia also adds skills which cost
-                        health and newer mechanics like forging, culminating in a game that preserves the
-                        original identity of Gaiden, while feeling like a modern title.
-                    </p>
-                </Container>
-            </Jumbotron>
+            <TabSummary
+                img={null}
+                title="Faithful, but innovative"
+                content={
+                    <div>
+                        <p>
+                            In Fire Emblem Gaiden for the SNES, concepts such as dungeons were introduced, but
+                            could never be fully explored due to limitations of the time. In this remake, such
+                            ideas are brought to life in modern fashion, allowing for a one-of-a-kind Fire 
+                            Emblem experience.
+                        </p>
+                        <p>
+                            Gaiden was also known for presenting many unique ideas such as magic costing health
+                            and very long-range archers, both of which are unchanged in this title. Building
+                            upon such ideas, Fire Emblem Echoes: Shadows of Valentia also adds skills which cost
+                            health and newer mechanics like forging, culminating in a game that preserves the
+                            original identity of Gaiden, while feeling like a modern title.
+                        </p>
+                    </div>
+                }
+            />
             <GameplayExample 
                 img={Forecast} 
                 content={
