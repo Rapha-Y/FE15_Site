@@ -11,6 +11,9 @@ function GameplayExample(props) {
                     className="d-flex align-items-center justify-content-center"
                 >
                     <Container className="py-4">
+                        <h2 style={{paddingBottom: "12px"}}>
+                            {props.title}
+                        </h2>
                         {props.content}
                     </Container>
                 </Col>

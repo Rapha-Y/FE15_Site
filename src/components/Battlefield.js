@@ -36,39 +36,33 @@ function Battlefield() {
             />
             <GameplayExample 
                 img={Forecast} 
+                title="Grid-based combat"
                 content={
-                    <div>
-                        <h2 style={{paddingBottom: "12px"}}>Grid-based combat</h2>
-                        <p>
-                            In classic Fire Emblem fashion, you control where and when to engage combat,
-                            by moving your units around the map and picking your battles.
-                        </p>
-                    </div>
+                    <p>
+                        In classic Fire Emblem fashion, you control where and when to engage combat,
+                        by moving your units around the map and picking your battles.
+                    </p>
                 }
             />
             <GameplayExample 
                 img={Promotion} 
+                title="Character progression"
                 content={
-                    <div>
-                        <h2 style={{paddingBottom: "12px"}}>Character progression</h2>
-                        <p>
-                            Each of your units can become stronger by leveling up, changing classes or
-                            getting new weapons, which reward them with unique skills upon mastery.
-                        </p>
-                    </div>
+                    <p>
+                        Each of your units can become stronger by leveling up, changing classes or
+                        getting new weapons, which reward them with unique skills upon mastery.
+                    </p>
                 }
             />
             <GameplayExample 
                 img={Dungeon} 
+                title="Dungeon crawling"
                 content={
-                    <div>
-                        <h2 style={{paddingBottom: "12px"}}>Dungeon crawling</h2>
-                        <p>
-                            Unlike every previous entry in the franchise, environment exploration makes a 
-                            big part of the game, allowing you to gather resources and grind experience in 
-                            lesser battles, in case you feel difficulty progressing.
-                        </p>
-                    </div>
+                    <p>
+                        Unlike every previous entry in the franchise, environment exploration makes a 
+                        big part of the game, allowing you to gather resources and grind experience in 
+                        lesser battles, in case you feel difficulty progressing.
+                    </p>
                 }
             />
         </div>
