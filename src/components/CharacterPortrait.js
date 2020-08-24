@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import { Container, Image, Button, Modal, Row, Col } from 'react-bootstrap';
+import { Image, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import CharacterModal from './CharacterModal';
 
 function CharacterPortrait(props) {
     const [show, setShow] = useState(false);
@@ -14,28 +16,16 @@ function CharacterPortrait(props) {
                 <h5 style={{marginBottom: 0, paddingTop: 4, paddingBottom: 4}}>{props.name}</h5>
             </Button>
 
-            <Modal show={show} onHide={handleClose} centered>
-                <Modal.Header closeButton>
-                    <Modal.Title>{props.name}</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                    <Container>
-                        <Row>
-                            <Col xs={4}>
-                                <Image src={props.img} className="border" />
-                            </Col>
-                            <Col xs={8}>
-                                <p>Age: {props.age}</p>
-                                <p>Class: {props.class}</p>
-                                <p>{props.description}</p>
-                            </Col>
-                        </Row>
-                    </Container>
-                </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="dark" onClick={handleClose}>Close</Button>
-                </Modal.Footer>
-            </Modal>
+            <CharacterModal
+                show={show}
+                onHide={handleClose}
+                name={props.name}
+                img={props.img}
+                age={props.age}
+                class={props.class}
+                description={props.description}
+                onClick={handleClose}
+            />
         </div>
     );
 }

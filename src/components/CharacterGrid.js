@@ -2,12 +2,11 @@ import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import CharacterInfo from '../resources/CharacterInfo';
-
 import CharacterPortrait from './CharacterPortrait';
 
-function CharacterGrid() {
+import CharacterInfo from '../resources/CharacterInfo';
 
+function CharacterGrid() {
     let characterButtons = [];
     for (var i = 0; i < CharacterInfo.length; i++) {
         characterButtons.push(
