@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function BuyNow() {
     return (
         <Container className="my-5 text-center text-light" style={{paddingTop: 36}}>
-            <div style={{maxWidth: 512, padding: 12}} className="mx-auto border">
+            <div style={{maxWidth: 512, padding: 12}} className="mx-auto border bg-dark">
                 <h1 style={{paddingTop: 12, paddingBottom: 12}}>Available Now</h1>
                 <Image 
                     src={require("../resources/boxart.png")} 

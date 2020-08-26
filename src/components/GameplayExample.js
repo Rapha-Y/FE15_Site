@@ -18,11 +18,7 @@ function GameplayExample(props) {
                     </Container>
                 </Col>
                 <Col md={7} style={{padding: 0}}>
-                    <Image 
-                        src={props.img}
-                        className="max-width"
-                        fluid
-                    />
+                    <Image src={props.img} className="max-width" fluid />
                 </Col>
             </Row>
         </Container>

@@ -13,8 +13,8 @@ function Banner() {
     return (
         <div>
             <div>
-                <Row>
-                    <Col md={12}>
+                <Row style={{margin: 0}}>
+                    <Col md={12} style={{padding: 0}}>
                         <Image src={require("../resources/wallpaper.png")} fluid />
                     </Col>
                     <Col>
