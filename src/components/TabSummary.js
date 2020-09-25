@@ -8,13 +8,13 @@ function TabSummary(props) {
             <Jumbotron style={{margin: 0}} fluid>
                 <Container>
                     <Row>
-                        <Col lg={7}>
+                        <Col lg={8}>
                             <h2 style={{paddingBottom: "12px"}}>
                                 {props.title}
                             </h2>
                             {props.content}
                         </Col>
-                        <Col lg={5}>
+                        <Col lg={4}>
                             <Image 
                                 src={props.img} 
                                 className="d-none d-lg-block float-right"

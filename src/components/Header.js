@@ -1,21 +1,27 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import HeaderLink from './HeaderLink';
 
 function Header() {
     return (
         <Navbar 
             bg="dark" 
             variant="dark" 
-            className="justify-content-center fixed-top" 
+            className="fixed-top px-4" 
+            expand="md"
         >
-            <Nav>
-                <Nav.Link as={Link} to="/home">Home</Nav.Link>
-                <Nav.Link as={Link} to="/characters">Characters</Nav.Link>
-                <Nav.Link as={Link} to="/battlefield">Battlefield</Nav.Link>
-                <Nav.Link as={Link} to="/buynow">Buy Now</Nav.Link>
-            </Nav>
+            <Navbar.Brand className="d-md-none">Menu</Navbar.Brand>
+            <Navbar.Toggle aria-controls="navbar-nav"></Navbar.Toggle>
+            <Navbar.Collapse id="navbar-nav">
+                <Nav className="mx-auto">
+                    <HeaderLink path="/home" name="Home" />
+                    <HeaderLink path="/characters" name="Characters" />
+                    <HeaderLink path="/battlefield" name="Battlefield" />
+                    <HeaderLink path="/buynow" name="Buy Now" />
+                </Nav>
+            </Navbar.Collapse>
         </Navbar>
     );
 }
