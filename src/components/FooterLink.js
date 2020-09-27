@@ -23,8 +23,12 @@ function FooterLink(props) {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <MDBIcon fab icon={iconProps} />
-                    {props.name}
+                    <div style={{float: "left", width: 20}} className="mr-1">
+                        <MDBIcon fab icon={iconProps} />
+                    </div>
+                    <div>
+                        {props.name}
+                    </div>
                 </a>
             </div>
         );
